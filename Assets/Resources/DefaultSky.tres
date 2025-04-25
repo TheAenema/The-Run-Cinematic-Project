@@ -1,0 +1,10 @@
+[gd_resource type="Sky" load_steps=2 format=3 uid="uid://cn0j5igoxyi40"]
+
+[sub_resource type="PhysicalSkyMaterial" id="PhysicalSkyMaterial_ah3tj"]
+sun_disk_scale = 2.0
+ground_color = Color(0.24, 0.24, 0.24, 1)
+energy_multiplier = 4.0
+
+[resource]
+sky_material = SubResource("PhysicalSkyMaterial_ah3tj")
+process_mode = 1

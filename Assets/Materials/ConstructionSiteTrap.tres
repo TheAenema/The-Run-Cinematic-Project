@@ -1,0 +1,38 @@
+[gd_resource type="ShaderMaterial" load_steps=7 format=3 uid="uid://cb1t8t67sn1x8"]
+
+[ext_resource type="Shader" uid="uid://bfrxpn0e7n7ck" path="res://Assets/Resources/Shaders/HM3dsMaxVATGeneric.gdshader" id="1_eet4g"]
+[ext_resource type="Texture2D" uid="uid://dxvwg2brduj2h" path="res://Assets/Textures/ConstructionSiteTrap_Albedo.jpg" id="2_mrkwf"]
+[ext_resource type="Texture2D" uid="uid://bqx4pbacdqpyp" path="res://Assets/Textures/ConstructionSiteTrap_RMA.jpg" id="3_ee4on"]
+[ext_resource type="Texture2D" uid="uid://bgqh0nvsvjd4v" path="res://Assets/Textures/ConstructionSiteTrap_Normal.jpg" id="4_jid34"]
+[ext_resource type="Texture2D" uid="uid://gww4vlj4b855" path="res://Assets/Textures/VAT/VAT_ConstructionSiteTrap_Normals.png" id="5_fsdcg"]
+[ext_resource type="Texture2D" uid="uid://bckvcqpd8it5l" path="res://Assets/Textures/VAT/VAT_ConstructionSiteTrap_Positions.png" id="6_q40kk"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_eet4g")
+shader_parameter/albedo = Color(0.396078, 0.933333, 1, 1)
+shader_parameter/texture_albedo = ExtResource("2_mrkwf")
+shader_parameter/point_size = 1.0
+shader_parameter/roughness = 1.0
+shader_parameter/texture_metallic = ExtResource("3_ee4on")
+shader_parameter/metallic_texture_channel = Vector4(0, 1, 0, 0)
+shader_parameter/texture_roughness = ExtResource("3_ee4on")
+shader_parameter/specular = 1.0
+shader_parameter/metallic = 0.97
+shader_parameter/texture_normal = ExtResource("4_jid34")
+shader_parameter/normal_scale = 2.5
+shader_parameter/rim = 0.6
+shader_parameter/rim_tint = 0.45
+shader_parameter/texture_ambient_occlusion = ExtResource("3_ee4on")
+shader_parameter/ao_texture_channel = Vector4(0, 0, 0, 1)
+shader_parameter/ao_light_affect = 1.0
+shader_parameter/backlight = Color(0.480225, 0.480225, 0.480225, 1)
+shader_parameter/vat_positions_texture = ExtResource("6_q40kk")
+shader_parameter/vat_normals_texture = ExtResource("5_fsdcg")
+shader_parameter/vat_min = Vector3(-15.554, 9.283, -1.838)
+shader_parameter/vat_max = Vector3(-7.986, 14.243, -11.622)
+shader_parameter/fix_axis = false
+shader_parameter/vat_weight = 1.0
+shader_parameter/animate_speed = 0.0
+shader_parameter/animate_offset = 400.0
+shader_parameter/flipbook_dimensions = Vector2i(12, 8)

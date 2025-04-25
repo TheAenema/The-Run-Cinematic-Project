@@ -1,0 +1,30 @@
+[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://cmuiqax7jwd20"]
+
+[ext_resource type="Shader" uid="uid://boc2r6s5tevh5" path="res://Assets/Resources/Shaders/HMSixWayLighting.gdshader" id="1_jiao6"]
+[ext_resource type="Texture2D" uid="uid://co463ccv5fugp" path="res://Assets/Textures/VFX/VFX_GroundImpactDirt_LBF.jpg" id="2_g6uma"]
+[ext_resource type="Texture2D" uid="uid://b5dwit8migfqu" path="res://Assets/Textures/VFX/VFX_GroundImpactDirt_RTB.jpg" id="3_hfjv8"]
+[ext_resource type="Texture2D" uid="uid://cu16pavua1wku" path="res://Assets/Textures/VFX/VFX_GroundImpactDirt_TEA.jpg" id="4_o0k4v"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_jiao6")
+shader_parameter/six_way_map_RTB = ExtResource("3_hfjv8")
+shader_parameter/six_way_map_LBF = ExtResource("2_g6uma")
+shader_parameter/six_way_map_TEA = ExtResource("4_o0k4v")
+shader_parameter/absorption = Color(0.34, 0.3043, 0.289, 1)
+shader_parameter/thickness = 3.412
+shader_parameter/density = 0.915
+shader_parameter/scattering = 0.22
+shader_parameter/normal_power = 0.04
+shader_parameter/normal_blend = 0.25
+shader_parameter/ao_power = 0.202
+shader_parameter/emission_power = 0.0
+shader_parameter/emission_color_shift = 0.0
+shader_parameter/billboard_mode = 2
+shader_parameter/billboard_keep_scale = true
+shader_parameter/animate = true
+shader_parameter/animate_speed = 0.0
+shader_parameter/animate_offset = 100.0
+shader_parameter/flipbook_dimensions = Vector2i(10, 10)
+shader_parameter/depth_fade_distance = 0.748
+shader_parameter/depth_fade_strength = 0.284

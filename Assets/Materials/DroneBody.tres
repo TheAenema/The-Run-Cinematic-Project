@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://6m5a4b1o8y8p"]
+
+[ext_resource type="Texture2D" uid="uid://m1ckxtf2d7gk" path="res://Assets/Textures/DetailMap_Metal.jpg" id="1_kebcg"]
+
+[resource]
+albedo_color = Color(0.793692, 0.793698, 0.793696, 1)
+metallic = 0.54
+roughness_texture = ExtResource("1_kebcg")
+roughness_texture_channel = 1
+clearcoat_enabled = true
+anisotropy = 0.29
+ao_light_affect = 0.24
+ao_texture = ExtResource("1_kebcg")
+ao_texture_channel = 2
+uv1_scale = Vector3(-0.54, -0.54, -0.54)
+uv1_triplanar = true

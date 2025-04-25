@@ -1,0 +1,26 @@
+[remap]
+
+importer="3d_texture"
+type="CompressedTexture3D"
+uid="uid://dod0nntb1cpwi"
+path="res://.godot/imported/LUT_TheRun.png-a70d90f9c9fb24ce9f10e3316bea0a38.ctex3d"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Textures/LUT/LUT_TheRun.png"
+dest_files=["res://.godot/imported/LUT_TheRun.png-a70d90f9c9fb24ce9f10e3316bea0a38.ctex3d"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+slices/horizontal=33
+slices/vertical=1

@@ -1,0 +1,30 @@
+[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://cq6yplyfebonb"]
+
+[ext_resource type="Shader" uid="uid://boc2r6s5tevh5" path="res://Assets/Resources/Shaders/HMSixWayLighting.gdshader" id="1_ce1po"]
+[ext_resource type="Texture2D" uid="uid://b5wykni36l0he" path="res://Assets/Textures/VFX/VFX_Steam_LBF.jpg" id="2_b4xls"]
+[ext_resource type="Texture2D" uid="uid://cmnp7f8p1eaeq" path="res://Assets/Textures/VFX/VFX_Steam_RTB.jpg" id="3_83tll"]
+[ext_resource type="Texture2D" uid="uid://d17dp27uetoi" path="res://Assets/Textures/VFX/VFX_Steam_TEA.jpg" id="4_epbek"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_ce1po")
+shader_parameter/six_way_map_RTB = ExtResource("3_83tll")
+shader_parameter/six_way_map_LBF = ExtResource("2_b4xls")
+shader_parameter/six_way_map_TEA = ExtResource("4_epbek")
+shader_parameter/absorption = Color(1, 1, 1, 1)
+shader_parameter/thickness = 0.928001
+shader_parameter/density = 1.0
+shader_parameter/scattering = 1.0
+shader_parameter/normal_power = 0.0
+shader_parameter/normal_blend = 0.0
+shader_parameter/ao_power = 0.6
+shader_parameter/emission_power = 0.0
+shader_parameter/emission_color_shift = 1.0
+shader_parameter/billboard_mode = 0
+shader_parameter/billboard_keep_scale = true
+shader_parameter/animate = true
+shader_parameter/animate_speed = 0.0
+shader_parameter/animate_offset = 654.0
+shader_parameter/flipbook_dimensions = Vector2i(25, 12)
+shader_parameter/depth_fade_distance = 0.05
+shader_parameter/depth_fade_strength = 0.0

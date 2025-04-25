@@ -1,0 +1,32 @@
+[gd_resource type="ShaderMaterial" load_steps=6 format=3 uid="uid://br4uvap61io27"]
+
+[ext_resource type="Shader" uid="uid://boc2r6s5tevh5" path="res://Assets/Resources/Shaders/HMSixWayLighting.gdshader" id="1_8bx57"]
+[ext_resource type="Texture2D" uid="uid://bdxte3yihckog" path="res://Assets/Textures/VFX/VFX_VehicleBurn_Ramp.png" id="2_8bx57"]
+[ext_resource type="Texture2D" uid="uid://b5h5e1u7to7lm" path="res://Assets/Textures/VFX/VFX_VehicleBurn_LBF.jpg" id="3_etski"]
+[ext_resource type="Texture2D" uid="uid://dr3jre4kjqf32" path="res://Assets/Textures/VFX/VFX_VehicleBurn_RTB.jpg" id="4_gibj8"]
+[ext_resource type="Texture2D" uid="uid://cvsyj8dvofpt8" path="res://Assets/Textures/VFX/VFX_VehicleBurn_TEA.jpg" id="5_5xrab"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_8bx57")
+shader_parameter/six_way_map_RTB = ExtResource("4_gibj8")
+shader_parameter/six_way_map_LBF = ExtResource("3_etski")
+shader_parameter/six_way_map_TEA = ExtResource("5_5xrab")
+shader_parameter/emission_ramp = ExtResource("2_8bx57")
+shader_parameter/absorption = Color(0.202245, 0.202245, 0.202245, 1)
+shader_parameter/thickness = 0.15
+shader_parameter/density = 1.0
+shader_parameter/scattering = 0.275
+shader_parameter/normal_power = 0.0
+shader_parameter/normal_blend = 0.0
+shader_parameter/ao_power = 1.0
+shader_parameter/emission_power = 9.924
+shader_parameter/emission_color_shift = 0.0
+shader_parameter/billboard_mode = 1
+shader_parameter/billboard_keep_scale = true
+shader_parameter/animate = true
+shader_parameter/animate_speed = 0.0
+shader_parameter/animate_offset = 634.0
+shader_parameter/flipbook_dimensions = Vector2i(8, 8)
+shader_parameter/depth_fade_distance = 0.119
+shader_parameter/depth_fade_strength = 0.245

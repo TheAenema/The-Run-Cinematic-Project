@@ -1,0 +1,18 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://csu8enfoj800i"]
+
+[ext_resource type="Shader" uid="uid://bboanxsj0mltb" path="res://Assets/Resources/Shaders/HMEmissiveVolumetric.gdshader" id="1_m0urw"]
+[ext_resource type="Texture2D" uid="uid://c8uohhu6upl7t" path="res://Assets/Textures/VFX/VFX_FlameElement.jpg" id="2_p81bn"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_m0urw")
+shader_parameter/volumetric_emission = ExtResource("2_p81bn")
+shader_parameter/absorption = Color(1, 1, 1, 1)
+shader_parameter/emission_power = 1.0
+shader_parameter/emission_color_shift = 1.0
+shader_parameter/billboard_mode = 0
+shader_parameter/billboard_keep_scale = true
+shader_parameter/animate = true
+shader_parameter/animate_speed = 0.0
+shader_parameter/animate_offset = 224.0
+shader_parameter/flipbook_dimensions = Vector2i(15, 15)

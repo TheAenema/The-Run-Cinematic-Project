@@ -1,0 +1,18 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://wgqakk73o1yd"]
+
+[ext_resource type="Shader" uid="uid://bboanxsj0mltb" path="res://Assets/Resources/Shaders/HMEmissiveVolumetric.gdshader" id="1_cp6ud"]
+[ext_resource type="Texture2D" uid="uid://cplmtqvxv2nvd" path="res://Assets/Textures/VFX/VFX_AircraftMissleBurn.jpg" id="2_o5jh3"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_cp6ud")
+shader_parameter/absorption = Color(1, 1, 1, 1)
+shader_parameter/emission_power = 1.0
+shader_parameter/emission_color_shift = 0.0
+shader_parameter/billboard_mode = 0
+shader_parameter/billboard_keep_scale = true
+shader_parameter/animate = true
+shader_parameter/animate_speed = 20.0
+shader_parameter/animate_offset = 0.0
+shader_parameter/flipbook_dimensions = Vector2i(11, 8)
+shader_parameter/volumetric_emission = ExtResource("2_o5jh3")

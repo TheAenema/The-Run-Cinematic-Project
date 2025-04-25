@@ -1,0 +1,32 @@
+[gd_resource type="StandardMaterial3D" load_steps=8 format=3 uid="uid://bbaaookiwmn5r"]
+
+[ext_resource type="Texture2D" uid="uid://h8x1imo7vnd8" path="res://Assets/Textures/ConstructionSite_Albedo.jpg" id="1_sql33"]
+[ext_resource type="Texture2D" uid="uid://d3jnd885fh1ap" path="res://Assets/Textures/ConstructionSiteDetailed_AO.jpg" id="2_pk65m"]
+[ext_resource type="Texture2D" uid="uid://bcycc24fonhsh" path="res://Assets/Textures/ConstructionSite_RMA.jpg" id="2_planp"]
+[ext_resource type="Texture2D" uid="uid://d33oe7uca4sx3" path="res://Assets/Textures/ConcreteDetail_Albedo.jpg" id="3_pk65m"]
+[ext_resource type="Texture2D" uid="uid://6yg6g6khkvsn" path="res://Assets/Textures/ConstructionSite_MixMap.jpg" id="4_f0ite"]
+[ext_resource type="Texture2D" uid="uid://bcqvse88tpdeh" path="res://Assets/Textures/ConcreteDetail_Normal.jpg" id="5_mb6iy"]
+[ext_resource type="Texture2D" uid="uid://c2a1um4jdpmi2" path="res://Assets/Textures/ConstructionSite_Normal.jpg" id="6_j62du"]
+
+[resource]
+albedo_texture = ExtResource("1_sql33")
+metallic = 0.3
+metallic_texture = ExtResource("2_planp")
+metallic_texture_channel = 1
+roughness = 0.2
+roughness_texture = ExtResource("2_planp")
+normal_enabled = true
+normal_scale = 0.2
+normal_texture = ExtResource("6_j62du")
+ao_enabled = true
+ao_light_affect = 1.0
+ao_texture = ExtResource("2_pk65m")
+ao_on_uv2 = true
+ao_texture_channel = 2
+detail_enabled = true
+detail_mask = ExtResource("4_f0ite")
+detail_uv_layer = 1
+detail_albedo = ExtResource("3_pk65m")
+detail_normal = ExtResource("5_mb6iy")
+uv2_triplanar_sharpness = 150.0
+texture_filter = 1

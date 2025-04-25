@@ -1,0 +1,30 @@
+[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://dodd2xl1cbr62"]
+
+[ext_resource type="Shader" uid="uid://boc2r6s5tevh5" path="res://Assets/Resources/Shaders/HMSixWayLighting.gdshader" id="1_cbeve"]
+[ext_resource type="Texture2D" uid="uid://dehn2fluq0hd5" path="res://Assets/Textures/VFX/VFX_DroneFallSmoke_LBF.jpg" id="2_tk1rp"]
+[ext_resource type="Texture2D" uid="uid://ta70g4f5hlqa" path="res://Assets/Textures/VFX/VFX_DroneFallSmoke_RTB.jpg" id="3_1u1tj"]
+[ext_resource type="Texture2D" uid="uid://wmh2lvu7bm4k" path="res://Assets/Textures/VFX/VFX_DroneFallSmoke_TEA.jpg" id="4_eadj2"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_cbeve")
+shader_parameter/six_way_map_RTB = ExtResource("3_1u1tj")
+shader_parameter/six_way_map_LBF = ExtResource("2_tk1rp")
+shader_parameter/six_way_map_TEA = ExtResource("4_eadj2")
+shader_parameter/absorption = Color(0.59475, 0.59475, 0.59475, 1)
+shader_parameter/thickness = 0.15
+shader_parameter/density = 0.0
+shader_parameter/scattering = 0.25
+shader_parameter/normal_power = 0.25
+shader_parameter/normal_blend = 0.7
+shader_parameter/ao_power = 0.5
+shader_parameter/emission_power = 0.0
+shader_parameter/emission_color_shift = 1.0
+shader_parameter/billboard_mode = 0
+shader_parameter/billboard_keep_scale = true
+shader_parameter/animate = true
+shader_parameter/animate_speed = 0.0
+shader_parameter/animate_offset = 70.74
+shader_parameter/flipbook_dimensions = Vector2i(8, 8)
+shader_parameter/depth_fade_distance = 0.1
+shader_parameter/depth_fade_strength = 0.1

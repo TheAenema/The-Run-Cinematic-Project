@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://cfqrjyrforias"]
+
+[ext_resource type="Texture2D" uid="uid://kbgfy7cg61oj" path="res://Assets/Textures/Ground_Wet_Albedo.jpg" id="1_w057o"]
+[ext_resource type="Texture2D" uid="uid://bds7q4b5meexc" path="res://Assets/Textures/Ground_Wet_Normal.png" id="2_frcka"]
+[ext_resource type="Texture2D" uid="uid://dwbgcj4c3ds0c" path="res://Assets/Textures/Ground_RMA.jpg" id="3_ii635"]
+
+[resource]
+albedo_texture = ExtResource("1_w057o")
+metallic_specular = 0.41
+roughness = 0.72
+roughness_texture = ExtResource("3_ii635")
+normal_enabled = true
+normal_scale = 2.22
+normal_texture = ExtResource("2_frcka")
+uv1_scale = Vector3(0.985, 0.985, 0.985)
+uv1_triplanar = true
+uv1_triplanar_sharpness = 42.2243
