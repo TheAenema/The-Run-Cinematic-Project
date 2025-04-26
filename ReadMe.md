@@ -6,9 +6,9 @@ A project focused on creating a AAA-quality cinematic cutscene using the Blazium
 
 ## Background
 
-This project aimed at pushing all the limits of the Godot Engine in graphics and animation capabilities. I've implemented various shaders to achieve the quality I wanted such as [Six-Way Volumetric Lighting](https://github.com/TheAenema/Godot-Six-Way-Volumetric-Shader) shader for Fire, Smoke, Explosions and Steam along with a Limitless Vertex Animation Texture  (VAT) shader to simulate cloth simulations.
+This project aimed at pushing all the limits of the Godot Engine in graphics and animation capabilities. I've implemented various shaders to achieve the quality I wanted such as [Six-Way Volumetric Lighting](https://github.com/TheAenema/Godot-Six-Way-Volumetric-Shader) shader for Fire, Smoke, Explosions and Steam along with a Limitless Vertex Animation Texture (VAT) shader to achieve cloth simulations.
 
-The entire project was animated and created in Autodesk 3ds Max 2023 then ported to the Blazium Engine to set up rendering and presentation. 
+The entire project was animated and created in **Autodesk 3ds Max 2023** then ported to the **[Blazium Engine](https://github.com/blazium-engine/blazium)** to set up rendering and presentation. 
 
 > **Note :** This project does not depend on any third-party tool or library; everything is built with existing tools, and it can run inside Godot, Blazium, and Redot.
 
