@@ -1,8 +1,12 @@
-# The Run (走れ) : Cinematic Cutscene Project 
+# [The Run (走れ) : Cinematic Cutscene Project ](https://www.youtube.com/watch?v=5D1G5uZ6Jhc)
 
 A project focused on creating a AAA-quality cinematic cutscene using the Blazium Engine a fork of Godot Engine.
 
 ![TheRun_Screenshot](https://github.com/user-attachments/assets/c7f31ad2-53b8-43d8-ba67-44cde19790c3)
+
+<h3 align="center">
+• <a href="https://www.youtube.com/watch?v=5D1G5uZ6Jhc">Watch Cinematic On YouTube</a> •
+</h3>
 
 ## Background
 
