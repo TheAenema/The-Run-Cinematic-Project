@@ -1,6 +1,6 @@
 # [The Run (走れ) : Cinematic Cutscene Project ](https://www.youtube.com/watch?v=5D1G5uZ6Jhc)
 
-A project focused on creating a AAA-quality cinematic cutscene using the Blazium Engine a fork of Godot Engine.
+A project focused on creating a AAA-quality cinematic cutscene using the Godot Engine.
 
 ![TheRun_Screenshot](https://github.com/user-attachments/assets/c7f31ad2-53b8-43d8-ba67-44cde19790c3)
 
@@ -12,9 +12,11 @@ A project focused on creating a AAA-quality cinematic cutscene using the Blazium
 
 This project aimed at pushing all the limits of the Godot Engine in graphics and animation capabilities. I've implemented various shaders to achieve the quality I wanted such as [Six-Way Volumetric Lighting](https://github.com/TheAenema/Godot-Six-Way-Volumetric-Shader) shader for Fire, Smoke, Explosions and Steam along with a Limitless Vertex Animation Texture (VAT) shader to achieve cloth simulations.
 
-The entire project was animated and created in **Autodesk 3ds Max 2023** then ported to the **[Blazium Engine](https://github.com/blazium-engine/blazium)** to set up rendering and presentation. 
+The entire project was animated and created in **Autodesk 3ds Max 2023** then ported to the **[Godot Engine](https://github.com/godot-engine/godot)** to set up rendering and presentation. 
 
-> **Note :** This project does not depend on any third-party tool or library; everything is built with existing tools, and it can run inside Godot, Blazium, and Redot.
+> **Note :**
+> 1. This project does not depend on any third-party tool or library; everything is built with existing tools, and it can run inside Godot and Redot.
+> 2. The project was initially created in Blazium fork but due to serious performance issues was migrated back to the Godot Engine.
 
 ## Project Details
 
@@ -28,7 +30,7 @@ The entire project was animated and created in **Autodesk 3ds Max 2023** then po
 To run the project at optimal quality the following equipment is required:
 
 - A high-performance graphics card (Project was built using a GeForce RTX 3080ti 12GB)
-- Godot, Blazium, or Redot version 4.3+ (Project was created in Blazium 4.3.9 Windows 11 x64 Build)
+- Godot or Redot version 4.3+ (Project was created in Godot 4.3 Windows 11 x64 Build)
 - Vulkan Renderer Support
 
 > For weaker GPUs the FSR 2.0 feature can be utilized to maintain performance. However, ensure the project runs at a solid 60FPS to stay in sync with the theme song.
@@ -43,6 +45,8 @@ This project contains the following elements that can be used for educational pu
 - Double Camera Motion Setup (Animated + Hand-Held Captured)
 - Looped Mesh Animation using Vertex Animation Texture (VAT)
 
+## Credits
+Some models used in this cutscene are downloaded from [CGTrader](https://www.cgtrader.com/free-3d-models) and Quixel Megascan
 
-
+-----
 Created & Designed by Hamid.Memar (MemarDesign™ LLC.)
