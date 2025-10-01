@@ -2,7 +2,7 @@
 
 A project focused on creating a AAA-quality cinematic cutscene using the Godot Engine.
 
-![TheRun_Screenshot](https://github.com/user-attachments/assets/c7f31ad2-53b8-43d8-ba67-44cde19790c3)
+![TheRun_Screenshot](https://github.com/user-attachments/assets/834d8c05-12c1-4824-b6de-7083a7c14e68)
 
 <h3 align="center">
 • <a href="https://www.youtube.com/watch?v=5D1G5uZ6Jhc">Watch Cinematic On YouTube</a> •
@@ -15,15 +15,18 @@ This project aimed at pushing all the limits of the Godot Engine in graphics and
 The entire project was animated and created in **Autodesk 3ds Max 2023** then ported to the **[Godot Engine](https://github.com/godot-engine/godot)** to set up rendering and presentation. 
 
 > **Note :**
+>
 > 1. This project does not depend on any third-party tool or library; everything is built with existing tools, and it can run inside Godot and Redot.
 > 2. The project was initially created in Blazium fork but due to serious performance issues was migrated back to the Godot Engine.
 
 ## Project Details
 
-- Engine Version : 4.3+
+- Engine Version* : 4.3+
 - Time to Finish : 8 Days
 - Size On Disk : 475,051,098 bytes
 - License : CC BY 4.0
+
+> It’s recommended to use Godot 4.5+ due to its magnificent performance improvements.
 
 ## Requirements
 
@@ -46,7 +49,7 @@ This project contains the following elements that can be used for educational pu
 - Looped Mesh Animation using Vertex Animation Texture (VAT)
 
 ## Credits
-Some models used in this cutscene are downloaded from [CGTrader](https://www.cgtrader.com/free-3d-models) and Quixel Megascan
+Some models used in this cutscene are downloaded from [CGTrader](https://www.cgtrader.com/free-3d-models) and Quixel MegaScan
 
 -----
 Created & Designed by Hamid.Memar (MemarDesign™ LLC.)
