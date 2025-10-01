@@ -1,0 +1,14 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://e08uf8iqq1jc"]
+
+[ext_resource type="Texture2D" uid="uid://m1ckxtf2d7gk" path="res://Assets/Textures/DetailMap_Metal.jpg" id="1_62vfp"]
+
+[resource]
+albedo_color = Color(0.144785, 0.144785, 0.144785, 1)
+metallic = 0.21
+roughness = 0.61
+roughness_texture = ExtResource("1_62vfp")
+rim_enabled = true
+clearcoat_enabled = true
+uv1_scale = Vector3(0.008, 0.008, 0.008)
+uv1_offset = Vector3(0, 0, 0.325)
+uv1_triplanar = true

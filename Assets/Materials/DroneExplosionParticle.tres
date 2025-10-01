@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bcl3wtpnubnar"]
+
+[resource]
+blend_mode = 1
+cull_mode = 2
+specular_mode = 2
+disable_ambient_light = true
+albedo_color = Color(0, 0, 0, 1)
+emission_enabled = true
+emission = Color(0.98, 0.520053, 0.1176, 1)
+emission_energy_multiplier = 10.0

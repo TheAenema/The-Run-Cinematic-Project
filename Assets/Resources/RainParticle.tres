@@ -1,0 +1,15 @@
+[gd_resource type="BoxMesh" load_steps=2 format=3 uid="uid://b0jwm5pts7f0n"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yt38o"]
+transparency = 1
+shading_mode = 2
+diffuse_mode = 1
+albedo_color = Color(0.11, 0.11, 0.11, 0.0588235)
+metallic = 0.05
+metallic_specular = 1.0
+roughness = 0.05
+disable_receive_shadows = true
+
+[resource]
+material = SubResource("StandardMaterial3D_yt38o")
+size = Vector3(0.003, 0.05, 0.003)

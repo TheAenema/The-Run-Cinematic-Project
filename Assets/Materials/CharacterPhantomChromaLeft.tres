@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://03ep5m6okft1"]
+
+[resource]
+transparency = 3
+alpha_hash_scale = 1.0
+alpha_antialiasing_mode = 0
+blend_mode = 1
+cull_mode = 1
+shading_mode = 0
+disable_ambient_light = true
+albedo_color = Color(0, 0.9, 1, 0.313726)
+disable_receive_shadows = true
+grow_amount = 0.01
+point_size = 0.1
+proximity_fade_enabled = true
+proximity_fade_distance = 0.01
