@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://ci4t15c6ny72y" path="res://Assets/Textures/CharacterHead_Albedo.jpeg" id="1_op01o"]
 [ext_resource type="Texture2D" uid="uid://yx427ty10uxf" path="res://Assets/Textures/CharacterHead_RMA.jpg" id="2_16xfd"]
-[ext_resource type="Texture2D" uid="uid://dl52uwmvj15q3" path="res://Assets/Textures/CharacterHead_Emission_Blazium.jpeg" id="3_16xfd"]
+[ext_resource type="Texture2D" uid="uid://cvf8jca7we8x0" path="res://Assets/Textures/CharacterHead_Emission.jpeg" id="3_16xfd"]
 [ext_resource type="Texture2D" uid="uid://cldsite8cheq2" path="res://Assets/Textures/CharacterHead_Normal.png" id="5_gb10j"]
 
 [resource]

@@ -6,5 +6,5 @@ metallic_specular = 0.83
 roughness = 0.59
 emission_enabled = true
 emission = Color(0.135621, 0.275756, 1, 1)
-emission_energy_multiplier = 0.0
+emission_energy_multiplier = 10.0
 refraction_enabled = true

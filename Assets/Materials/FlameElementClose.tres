@@ -14,5 +14,5 @@ shader_parameter/billboard_mode = 0
 shader_parameter/billboard_keep_scale = true
 shader_parameter/animate = true
 shader_parameter/animate_speed = 0.0
-shader_parameter/animate_offset = 224.0
+shader_parameter/animate_offset = 0.0
 shader_parameter/flipbook_dimensions = Vector2i(15, 15)
